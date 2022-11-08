@@ -1,0 +1,22 @@
+.form-control{
+  width: 50%;
+}
+.badge{
+  font-size: 20px;
+}
+
+.searchbtn{
+   background-color: #0d6efd;
+   border: #0d6efd;
+}
+.searchbtn>i{
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .form-control {
+    width: 100%;
+  }
+}
