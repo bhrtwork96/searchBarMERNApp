@@ -31,21 +31,19 @@ const AdgridBar = (props) => {
                     // handle error
                     console.log(error);
                 })
-                .finally(function () {
-                    // always executed
-                });
+                
         }
     }, [props.keyword])
 
     if (data) {
-        console.log(data)
+        
         return (
             <>
-                <div class="d-flex flex-wrap justify-content-center w-100 mb-5">
+                <div className="d-flex flex-wrap justify-content-center w-100 mb-5">
                     {
                         data.map((Ad) => {
                             return(
-                            <div class="p-3" key={Ad.id}><AdCard adData={Ad} /></div>
+                            <div className="p-3" key={Ad._id}><AdCard adData={Ad} /></div>
                             )
                         })
                     }
