@@ -1,4 +1,4 @@
-# search page with a search bar that search Ad 
+# Search page with a search bar that search Ad 
 
 ![image](https://user-images.githubusercontent.com/88784869/200861724-132c8ce7-1b72-4ff2-8ca7-68532044bf17.png)
 
